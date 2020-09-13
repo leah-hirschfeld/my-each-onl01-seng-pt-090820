@@ -1,13 +1,11 @@
-def my_each(input)
+def my_each(array)
   if block_given?
   i = 0 
-    if input == strl
-     while i < strl.length 
-     yield (strl(i))
+     while i < array.length 
+     yield (array(i))
      i 
     end
-    elsif input == int
-  string
+  array
 else
   return "No block given!"
 end
