@@ -3,8 +3,8 @@ def my_each(array)
   i = 0
   new_array = []
      while i < array.length 
-     yield (self)
-     new_array << i
+     yield (array(i))
+     new_array << puts i
     end
   return new_array
 else
