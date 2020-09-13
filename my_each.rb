@@ -3,7 +3,7 @@ def my_each(array)
   i = 0 
      while i < array.length 
      yield (self)
-     i 
+     array(i)
     end
   array
 else
