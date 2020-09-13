@@ -6,7 +6,7 @@ def my_each(array)
      yield (array(i))
      new_array = new_array << i
     end
-  return new_array
+  puts new_array
 else
   return "No block given!"
 end
