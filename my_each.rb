@@ -2,7 +2,7 @@ def my_each(array)
   if block_given? && kind_of(array) == true
   i = 0 
      while i < array.length 
-     yield (array(i))
+     yield (self)
      i 
     end
   array
