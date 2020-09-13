@@ -4,6 +4,6 @@ def my_each(array)
      while i < array.length 
      yield (array(i))
     array << i+=1
-  return array
+  array
 end
 end
